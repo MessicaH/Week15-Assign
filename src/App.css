@@ -1,0 +1,102 @@
+.App {
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='21' height='21' patternTransform='scale(4) rotate(85)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(210,100%,75.9%,1)'/><path d='M10-6V6M10 14v12M26 10H14M6 10H-6' transform='translate(0.5,0)' stroke-linecap='square' stroke-width='2' stroke='hsla(211,100%,95.9%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    padding-top: 50px;
+}
+
+.appTitle, .appTitle2 {
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    border: 1px solid rgb(33, 33, 33);
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(33, 33, 33);
+    background-color: white;
+    opacity: 85;
+}
+
+.appTitle2 {
+    margin-top: 1em;
+}
+
+.addPlayerImage {
+    background-image: url("/public/noun-tower-5043209-212121.png");
+    opacity: 100;
+    color: rgb(33, 33, 33);
+    width: inherit;
+    height: inherit;
+    background-repeat: no-repeat;
+}
+
+
+button {
+    margin: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px rgb(33, 33, 33);
+}
+
+.btn {
+    font-weight: 300;
+    margin-top: 1em;
+}
+
+.btn-center{
+    text-align: center;
+}
+
+.btn-right{
+    text-align: right;
+}
+
+input {
+    box-shadow: inset 2px 2px 2px rgb(84, 84, 84);
+    width: 15rem;
+    text-indent: 5px;
+}
+
+label {
+    font-weight: 600;
+    padding: 2px;
+}
+
+.crudOperation {
+    font-style: italic;
+}
+
+.playerCard, .formNewPlayer {
+    display: flex;
+    margin-top: 2em;
+    border: 1px solid rgb(33, 33, 33);
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(33, 33, 33);
+    background-color: white;
+    opacity: 85;
+}
+
+.playerCard {
+    width: fit-content;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.formNewPlayer {
+    margin-top: 0px;
+    width: fit-content;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.formUpdatePlayer {
+    margin-left: 3rem;
+    width: max-content;
+}
+
+.playerLabel {
+    font-weight: 600;
+    border-bottom: 2px solid rgb(33, 33, 33);
+}
+
+.playerDetails {
+    font-weight: 300;
+}
