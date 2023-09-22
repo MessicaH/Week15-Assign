@@ -261,8 +261,4 @@ Either follow in this file, or copy/paste over steps in App.js
  
  * Optional: Set the input values in your update form to be equal to user.name/user.jobTitle etc,
  *           so they don't initially submit empty strings.
- */
-
- -->#   W e e k 1 5 - A s s i g n 
- 
- 
+ */ -->
