@@ -4,6 +4,8 @@
 #   Subject:  React Week 15 - REST, Fetch, Functional Components, and Best Practices
 #   JS/React Lab Week 15 */
 
+## players.json is saved to refresh MockAPI data after testing/review
+
 <!-- 
 
 In-depth/step by step instruction for Week 15 lab.
@@ -261,5 +263,6 @@ Either follow in this file, or copy/paste over steps in App.js
  *           so they don't initially submit empty strings.
  */
 
- -->#   W e e k 1 5 - A s s i g n  
+ -->#   W e e k 1 5 - A s s i g n 
+ 
  
